@@ -1,9 +1,8 @@
 ---
 layout:
 title: 新年好
-categories: []
-tags: []
-published: True
+category: 技术
+comments: true
 
 ---
 
