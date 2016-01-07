@@ -1,6 +1,6 @@
 ---
 layout: post
-title: happy new year
+title: Happy New Year
 categories: [life]
 tags: [github, jekyll, StrayBirds]
 published: True
