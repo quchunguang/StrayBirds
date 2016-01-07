@@ -21,10 +21,10 @@ comments: True
 ```json
 {
     "posts_path": "D:\\repos\\blog\\_posts",
-    /* "posts_path": "/home/qcg/blog/_posts",*/
+    // "posts_path": "/home/qcg/blog/_posts",
 
     "drafts_path": "D:\\repos\\blog\\_drafts",
-    /* "drafts_path": "/home/qcg/blog/_drafts",*/
+    // "drafts_path": "/home/qcg/blog/_drafts",
 
     "default_post_layout": "post",
     "default_post_categories": "[tech]",
