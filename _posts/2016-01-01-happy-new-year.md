@@ -1,13 +1,13 @@
 ---
 layout: post
-title: 新年好
-categories: [生活, 技术]
+title: happy new year
+categories: [life]
 tags: [github, jekyll, StrayBirds]
 published: True
 comments: True
 ---
 
-## 祝自己新年好
+## 乔迁之喜
 
 作为迁移后的第一篇博客。把迁移的过程留下，纪念终将忘却的记忆。
 
