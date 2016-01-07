@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Happy New Year
-categories: [life]
+categories: [tech]
 tags: [github, jekyll, StrayBirds]
 published: True
 comments: True
+
 ---
 
 ## 乔迁之喜
@@ -13,16 +14,34 @@ comments: True
 
 ## blog迁移记录
 
-* Fork [StrayBirds](http://minixalpha.github.io/StrayBirds/) 的`jekyll`定制版。
+* Fork [StrayBirds](https://github.com/minixalpha/StrayBirds/) 的`jekyll`定制版。
 * 修改 `_config.yml`。
-* 安装 sublime text 的 jekyll 插件。配置jekyll 插件的`_post`,`_draft`路径。
-* 写下这篇博文。
+* 安装 sublime text 的 jekyll 插件。配置jekyll 插件的`Jekyll.sublime-settings`
+
+```json
+{
+    "posts_path": "D:\\repos\\blog\\_posts",
+    // "posts_path": "/home/qcg/blog/_posts",
+
+    "drafts_path": "D:\\repos\\blog\\_drafts",
+    // "drafts_path": "/home/qcg/blog/_drafts",
+
+    "default_post_layout": "post",
+    "default_post_categories": "[tech]",
+    "default_post_extras": {"comments": true},
+}
+```
 
 ## blog未来迁移计划
 
 * 从 2016-01-01 起，博文改从 [Github](https://github.com/quchunguang/blog) 书写。
 * 编写迁移工具，逐渐迁移qcg.git中的博文，断断续续可能要花一年的时间。
 * 编写迁移工具，定期继续同步博文到qcg.git中。
+
+## my categories
+
+* life
+* tech
 
 ## 使用参考
 
