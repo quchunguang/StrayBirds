@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Happy New Year
+title: 新年快乐
 categories: [tech]
 tags: [github, jekyll, StrayBirds]
 published: True
 comments: True
-
 ---
 
 ## 乔迁之喜
