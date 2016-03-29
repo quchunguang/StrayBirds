@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll plug-in of Sublime Text has changed
-categories: [tech]
+categories: [cs, software]
 tags: [jekyll, sublime text]
 published: True
 comments: True

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Gantt graph drawing with js
-categories: [tech]
-tags: []
+categories: [cs, js]
+tags: [js]
 published: True
 comments: True
 ---
@@ -28,3 +28,6 @@ http://www.bootcdn.cn/angular-gantt/
 ## Gantt in Google Charts
 
 https://developers.google.com/chart/interactive/docs/gallery/ganttchart
+
+## Gantt in dhtmlx
+http://dhtmlx.com/docs/products/dhtmlxGantt/

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 禁止PotPlayer自动更新
-categories: [tech, soft]
+categories: [cs, software]
 tags: [potplayer, hosts]
 published: True
 comments: True

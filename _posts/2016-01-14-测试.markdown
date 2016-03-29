@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 测试
-categories: [tech]
-tags: []
+categories: [cs]
+tags: [test]
 published: True
 comments: True
 

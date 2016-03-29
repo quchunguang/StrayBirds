@@ -1,0 +1,12 @@
+---
+layout: post
+title: AI thinks
+categories: [tech]
+tags: [AI]
+published: True
+comments: True
+---
+
+用DNA DB来训练NN，会有什么结果？
+
+[1]: https://www.google.com.hk/#newwindow=1&q=

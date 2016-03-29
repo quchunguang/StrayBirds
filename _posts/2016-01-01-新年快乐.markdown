@@ -39,8 +39,14 @@ comments: True
 
 ## my categories
 
-* life
-* tech
+├── cs
+│   ├── hardware
+│   ├── software
+│   ├── js
+│   └── python
+├── bio
+├── life
+└── poem
 
 ## 使用参考
 
