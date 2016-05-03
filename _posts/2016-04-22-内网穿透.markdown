@@ -1,0 +1,24 @@
+---
+layout: post
+title: 内网穿透
+categories: [tech]
+tags: [网络通]
+published: True
+comments: True
+---
+
+内网穿透实现外网访问内网服务。实验了花生壳（现在已经完全不能用，哎！）。
+[公云](http://www.pubyun.com)似乎是可以的，但是对win10客户端有兼容性问题，且不支持linux。
+[网络通](http://www.youtusoft.com/?t=install)挺方便，但免费速度只有10kb/s。至少能连上。
+
+测试，本地开启:8080
+
+```bash
+cd www/
+python SimpleHTTPServer 8080
+```
+
+注册登录，选择添加映射，选择单端口映射，国外线路，端口8080。
+访问给出的外网IP，搞定。
+
+[1]: https://www.google.com.hk/#newwindow=1&q=

@@ -1,0 +1,34 @@
+---
+layout: post
+title: python 多国语言问题
+categories: [tech]
+tags: [python]
+published: True
+comments: True
+---
+
+相对于python 2.x, python 3.x 下处理多国语言问题已经方便了许多, 参见[1].
+今天碰到一个抓头的小问题。
+
+```py
+with open("myfile.txt", "w", encoding="utf-8") as f:
+    s = "a\xac\u1234\u20ac\U00008000"
+    f.write(s)
+
+with open("myfile.txt", "r", encoding="utf-8") as f:
+    s = f.read()
+    print(s)
+```
+
+在Windows 10 中文版上出错，
+
+```
+Traceback (most recent call last):
+  File "D:\repos\test\testpy3\tmp.py", line 7, in <module>
+    print(s)
+UnicodeEncodeError: 'gbk' codec can't encode character '\xac' in position 6: illegal multibyte sequence
+```
+
+通篇用的"utf-8"编码，为什么会出现'gbk' codec error？很久没用Windows了，这代码在Linux上铁定没问题啊。仔细一想明白了，还是永恒的Windows恶心问题，虽然现代Windows版本早已改用unicode作为内部编码了，但并没有用utf-8作为控制台的默认编码。默认编码仍然是本地编码。以上问题出现原因就是，在第二个`with`中，`f.read()`的确成功将文件读出，并转码为python 3.x默认的unicode表示的`s`。但在`print(s)`的时候，要在Windows的控制台上显示，实际还要将unicode内部表示的s转码为gbk，原因是我使用的Windows是中文版。但是，unicode能够编码的字符远多于gbk，碰到不能转码的便只有出错了。两个`with`蒙蔽了我，原来问题出在`print(s)`上。
+
+[1]: https://docs.python.org/3/howto/unicode.html
