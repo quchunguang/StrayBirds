@@ -1,0 +1,16 @@
+---
+layout: post
+title: 给开发者提供的 35 款 JavaScript 图形图表库
+categories: [tech]
+tags: [js, d3, graph]
+published: True
+comments: True
+---
+
+* [转载][1]
+* [morris][2]
+* [开发者制作图形图表所需的11款JS工具包][3]
+
+[1]: http://www.oschina.net/news/49138/javascript-chart-and-graph-libraries
+[2]: https://github.com/morrisjs/morris.js
+[3]: http://www.csdn.net/article/2013-08-07/2816485-11-javascript-toolkit-for-creating-charts-and-graphs
